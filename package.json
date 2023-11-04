@@ -2,6 +2,11 @@
   "dependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.23.0"
   },
+  "type": "module",
+  "scripts": {
+    "dev": "node main.js",
+    "tests": "jest"
+  },
   "devDependencies": {
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
