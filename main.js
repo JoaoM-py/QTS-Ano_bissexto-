@@ -7,6 +7,9 @@ export function Bissexto(ano) {
 }
 
 
+const ano = 2020;
+Bissexto(ano) ? console.log(`${ano} é um ano bissexto.`) : console.log(`${ano} não é um ano bissexto.`)
+
 
 
 
